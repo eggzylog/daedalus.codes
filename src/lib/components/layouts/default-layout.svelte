@@ -1,15 +1,13 @@
 <script lang="ts">
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import { Footer, Header } from '../sections/';
-	
+
 	import type { ComponentEvents } from 'svelte';
 
 	function scrollHandler(event: ComponentEvents<AppShell>['scroll']) {
 		console.log(event.currentTarget.scrollTop);
 	}
-
 </script>
-
 
 <AppShell on:scroll={scrollHandler}>
 	<svelte:fragment slot="header">
