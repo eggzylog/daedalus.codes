@@ -7,7 +7,7 @@
 	import { getDrawerStore } from '@skeletonlabs/skeleton';
 
 	const drawerStore = getDrawerStore();
-	const settings = { id: 'example-1' };
+	// const settings = { id: 'example-1' };
 	function drawerOpenLeftNavigation(): void {
 		drawerStore.open({
 			id: 'drawer-side-link-list',
