@@ -33,7 +33,7 @@
 						{title}
 					</h1>
 					<p class="font-normal text-[15px] leading-[14.06px] md:leading-[17.58px] tracking-[4%]">
-						{@html details}
+						{details}
 					</p>
 				</div>
 			</div>
