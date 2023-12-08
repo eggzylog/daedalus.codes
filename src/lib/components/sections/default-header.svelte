@@ -58,10 +58,7 @@
 			<button class="text-2xl">
 				<Icon icon="iconamoon:search" />
 			</button>
-			<button 
-				class="text-2xl md:hidden"
-				on:click={drawerOpenLeftNavigation}
-				>
+			<button class="text-2xl md:hidden" on:click={drawerOpenLeftNavigation}>
 				<Icon icon="mdi:menu" />
 			</button>
 			<a href="/login" class="md:btn md:variant-filled-primary hidden md:flex">
