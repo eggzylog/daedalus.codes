@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Container } from '@components/utilities';
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
-	import Icon from '@iconify/svelte';
 	import Autoplay from 'embla-carousel-autoplay';
 
 	let options = {
