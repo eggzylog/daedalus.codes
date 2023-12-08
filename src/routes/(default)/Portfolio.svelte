@@ -2,11 +2,13 @@
 	import { Container } from '@components/utilities';
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
 	// import Icon from '@iconify/svelte';
+	import Autoplay from 'embla-carousel-autoplay';
 
 	let options = {
 		loop: false,
 		dragFree: true
 	};
+	let plugins = [Autoplay()];
 </script>
 
 <section class="py-32 bg-surface-100-800-token">
@@ -19,7 +21,7 @@
 			</h2>
 			<span class="w-[60%] border-b-2 border-neutral-500 ms-5 hidden md:block"></span>
 		</div>
-		<div class="embla" use:emblaCarouselSvelte={{ options }}>
+		<div class="embla" use:emblaCarouselSvelte={{ options, plugins }}>
 			<div class="embla__container">
 				<div class="embla__slide w-full max-w-[75%] md:max-w-[50%] lg:max-w-[33.33%] px-3">
 					<div
