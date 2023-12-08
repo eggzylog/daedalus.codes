@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { ProjectRecords } from '@types';
 	import { assetLink } from '@utils';
-	import DOMPurify from 'dompurify';
 
 	export let data: ProjectRecords;
 </script>
@@ -34,7 +33,7 @@
 						{title}
 					</h1>
 					<p class="font-normal text-[15px] leading-[14.06px] md:leading-[17.58px] tracking-[4%]">
-						{@html DOMPurify.sanitize(details)}
+						{details}
 					</p>
 				</div>
 			</div>
