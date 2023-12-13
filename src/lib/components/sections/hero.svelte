@@ -1,5 +1,5 @@
 <script>
-	import { Container } from '@components/utilities/';
+	import { Container } from '@components';
 	// import Icon from '@iconify/svelte';
 </script>
 
